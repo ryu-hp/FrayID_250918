@@ -1,0 +1,54 @@
+@use "sass:math";
+
+//ブレイクポイント
+$breakpoints: (
+  md: 768,
+  lg: 960,
+);
+//メディアクエリー
+$mediaquerys: (
+  md: "screen and (min-width: #{map-get($breakpoints,'md')}px)",
+  lg: "screen and (min-width: #{map-get($breakpoints,'lg')}px)",
+);
+
+
+// @include mq(){}で書くとブレークポイントが反映される（初期値はmd）
+@mixin mq($mediaquery: md) {
+  @media #{map-get($mediaquerys, $mediaquery)} {
+    @content;
+  }
+}
+// remへの計算式（16pxを基準としている。10pxを基準とする場合は16を10に変更する）
+@function rem($pixels) {
+    @return math.div($pixels, 10) * 1rem;
+}
+@function strip-unit($number) {
+    @if type-of($number) == "number" and not unitless($number) {
+        @return math.div($number, $number * 0 + 1);
+    }
+    @return $number;
+}
+
+// @function vw($size) {
+//   @return unquote("calc(#{$size} * (100vw / 750))");
+// }
+@function vw($size) {
+  @return unquote("calc(#{$size} * var(--formula))");
+}
+
+
+
+
+$base-font-family:  "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "Yu Gothic", "Open Sans", "メイリオ", sans-serif;
+$second-font-family: "mencken-std-head", sans-serif ;
+$check-all-font-family: "utopia-std", serif;
+
+$bold : 700;
+$normal : 400;
+$light : 300;
+
+
+$inner: 1000px;
+
+$padding-pc: rem(25);
+$padding-sp: rem(15);
