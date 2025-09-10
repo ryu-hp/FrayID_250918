@@ -7,9 +7,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2009 All Rights Reserved.
 --%>
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
 <%-- △ユーザーコントロール宣言領域△ --%>
-<%@ Page Title="タイトルが入ります | FRAY I.D（フレイ アイディー）公式サイト" Language="C#" Inherits="ContentsPage" MasterPageFile="~/Form/Common/DefaultPage.master" %>
+<%@ Page Title="ECHOES OF AUTUMN 余韻でまとう、秋色のニュアンス | FRAY I.D（フレイ アイディー）公式サイト" Language="C#" Inherits="ContentsPage" MasterPageFile="~/Form/Common/DefaultPage.master" %>
 <%@ Register TagPrefix="uc" TagName="Parts_archive" Src="~/Page/feature/archive/archive_Default.ascx" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2024/template/parts/text.ascx" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2025/250919_10hanbai/parts/text.ascx" %>
 
 <%--
 下記のタグはファイル情報保持用です。削除しないでください。

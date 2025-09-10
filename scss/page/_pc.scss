@@ -4,27 +4,6 @@
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: 1px;
 
-    .lp-wrapper {
-      display: flex;
-    }
-    .lp-fix-content {
-      position: sticky;
-      top: 0;
-      left: 0;
-      width: 50vw;
-      height: 100vh;
-    }
-    .lp-fix-content img {
-      height: 100vh;
-      object-fit: cover;
-    }
-    .lp-scroll-content {
-      width: 50vw;
-    }
-    .lp-scroll-content__wrapper {
-      max-width: calc(750 * var(--variable) * var(--ratio));
-      margin-right:auto;
-      margin-left:auto;
-    }
+    
   }
 }

@@ -7,8 +7,8 @@
 --%>
 <%-- ▽ユーザーコントロール宣言領域▽ --%>
 <%-- △ユーザーコントロール宣言領域△ --%>
-<%@ Page Title="タイトルが入ります | FRAY I.D（フレイ アイディー）公式サイト" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
-<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2024/template/parts/text.ascx" %>
+<%@ Page Title="ECHOES OF AUTUMN 余韻でまとう、秋色のニュアンス | FRAY I.D（フレイ アイディー）公式サイト" Language="C#" Inherits="BasePage" MasterPageFile="~/SmartPhone/Form/Common/DefaultPage.master" %>
+<%@ Register TagPrefix="uc" TagName="text" Src="~/Page/feature/2025/250919_10hanbai/parts/text.ascx" %>
 <%@ Register TagPrefix="uc" TagName="Parts_archive_sp" Src="~/SmartPhone/Page/Feature/archive/archive_Default.ascx" %>
 <%--
 

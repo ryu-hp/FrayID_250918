@@ -15,7 +15,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <!-- CSS SETTING -->
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2024/template/css/style.css"/>
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/css/style.css"/>
 <!-- CSS SETTING -->
 
 <!-- ▽ FONT SETTING ▽ -->
@@ -27,7 +27,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
   <ul class="cateList">
     <li><a href="<%= Constants.PATH_ROOT %>">FRAY I.D（フレイ アイディー）</a></li>
     <li><span> &gt; </span><a href="<%= Constants.PATH_ROOT %>Page/featureslist/2024aw.aspx">FEATURES（フィーチャーズ）</a></li>
-    <li><span> &gt; </span>タイトルが入ります</li>
+    <li><span> &gt; </span>ECHOES OF AUTUMN 余韻でまとう、秋色のニュアンス</li>
   </ul>
 </div>
 <!-- △ パンくず △ -->
@@ -41,7 +41,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <!-- △ LP編集エリア △ -->
 
 <!-- ▽ JS Setting ▽ -->
-<script src="<%= Constants.PATH_ROOT %>Page/feature/2024/template/js/index.js"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/js/index.js"></script>
 <!-- CSSハック利用のためのコードで不要であれば削除するようにしてください。 -->
 <script src="<%= Constants.PATH_ROOT %>JS/css_browser_selector.js"></script>
 <!-- △ JS Setting △ -->
