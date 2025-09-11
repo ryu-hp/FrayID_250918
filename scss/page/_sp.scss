@@ -57,6 +57,7 @@
     top: 0;
     left: 0;
     content: "";
+    z-index: 1;
   }
   .sec-02__image_content-text {
     max-width: vwl(108);
@@ -69,6 +70,7 @@
     margin-left: vwl(40);
     margin-top: vwl(-50);
     position: relative;
+    z-index: 1;
   }
   .sec-02__text {
     margin-top: vwl(39);
@@ -94,6 +96,7 @@
     top: 0;
     right: 0;
     content: "";
+    z-index: 1;
   }
   .sec-03__content {
     margin-top: vwl(60);
@@ -182,6 +185,7 @@
     top: 0;
     left: 0;
     content: "";
+    z-index: 1;
   }
   .sec-05__image-content {
     max-width: vwl(620);
@@ -253,6 +257,7 @@
     top: 0;
     left: 0;
     content: "";
+    z-index: 1;
   }
   .sec-06__image-content {
     position: relative;

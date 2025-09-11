@@ -66,6 +66,7 @@
     opacity: 0;
     transition: opacity 10ms;
     transition-delay: 500ms;
+    display: block;
   }
   .js-turnover.show > * {
     opacity: 1;

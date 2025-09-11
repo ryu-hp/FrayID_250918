@@ -73,6 +73,7 @@
   transition: opacity 10ms;
   -webkit-transition-delay: 500ms;
           transition-delay: 500ms;
+  display: block;
 }
 #FR25091910hanbai .js-turnover.show > * {
   opacity: 1;
@@ -343,6 +344,7 @@
   top: 0;
   left: 0;
   content: "";
+  z-index: 1;
 }
 #FR25091910hanbai .sec-02__image_content-text {
   max-width: calc(108 * var(--formula));
@@ -355,6 +357,7 @@
   margin-left: calc(40 * var(--formula));
   margin-top: calc(-50 * var(--formula));
   position: relative;
+  z-index: 1;
 }
 #FR25091910hanbai .sec-02__text {
   margin-top: calc(39 * var(--formula));
@@ -378,6 +381,7 @@
   top: 0;
   right: 0;
   content: "";
+  z-index: 1;
 }
 #FR25091910hanbai .sec-03__content {
   margin-top: calc(60 * var(--formula));
@@ -478,6 +482,7 @@
   top: 0;
   left: 0;
   content: "";
+  z-index: 1;
 }
 #FR25091910hanbai .sec-05__image-content {
   max-width: calc(620 * var(--formula));
@@ -546,6 +551,7 @@
   top: 0;
   left: 0;
   content: "";
+  z-index: 1;
 }
 #FR25091910hanbai .sec-06__image-content {
   position: relative;
