@@ -32,16 +32,18 @@ $mediaquerys: (
 // @function vw($size) {
 //   @return unquote("calc(#{$size} * (100vw / 750))");
 // }
-@function vw($size) {
+@function vwl($size) {
   @return unquote("calc(#{$size} * var(--formula))");
 }
 
 
 
 
-$base-font-family:  "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "Yu Gothic", "Open Sans", "メイリオ", sans-serif;
-$second-font-family: "mencken-std-head", sans-serif ;
-$check-all-font-family: "utopia-std", serif;
+// $base-font-family:  "trade-gothic-next", sans-serif;
+$base-font-family: "trade-gothic-next-compressed", sans-serif;
+$condensed-font-family: "Trade Gothic Next LT Pro Condensed", "trade-gothic-next", sans-serif;
+$second-font-family:  "vincente", serif ;
+$yugothic-font-family: "yu-gothic-pr6n", sans-serif, sans-serif;
 
 $bold : 700;
 $normal : 400;

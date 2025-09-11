@@ -1,9 +1,9 @@
 @use "../global" as * ;
 
-#MO250911DENIM {
+#FR25091910hanbai {
   --pc-width: 1400;
   --sp-width: 750;
-  --pc-artboard-width: 500;
+  --pc-artboard-width: 400;
   --sp-artboard-width: 750;
   --formula: calc(var(--variable) * var(--ratio));
   --formula_pc: calc(var(--variable) * 1);
@@ -51,18 +51,89 @@
     visibility: visible;    
   }
 
+  .js-clipIn {
+    clip-path: inset(0 100% 0 0);
+    transition: clip-path ease-out 0.5s 0.5s;
+  }
+  .js-clipIn.play {
+    clip-path: inset(0% 0% 0% 0%);
+  }
+
+  .js-turnover {
+    position: relative;
+  }
+  .js-turnover > * {
+    opacity: 0;
+    transition: opacity 10ms;
+    transition-delay: 500ms;
+  }
+  .js-turnover.show > * {
+    opacity: 1;
+  }
+  .js-turnover::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+  }
+  .js-turnover.show::after {
+    -webkit-animation: turnover 1000ms ease forwards;
+    animation: turnover 1000ms ease forwards;
+  }
+
+  @keyframes turnover {
+    0% {
+      left: 0;
+      width: 0;
+    }
+    25% {
+      left: 0;
+      width: 0;
+    }
+    40% {
+      left: 0;
+      width: 100%;
+    }
+    60% {
+      left: 0;
+      width: 100%;
+    }
+    75% {
+      left: 100%;
+      width: 0;
+    }
+    100% {
+      left: 100%;
+      width: 0;
+    }
+  }
+  @keyframes loop-infinite-to-left {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
   .text-center {
     text-align: center;
   }
   .description {
-    font-size: vw(25);
+    font-size: vwl(23);
     line-height: 1;
-    font-family: $second-font-family;
-    letter-spacing: 0.05em;
+    font-family: $base-font-family;
+    letter-spacing: 0.12em;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
-    gap: vw(25) vw(31);
+    gap: vwl(25) vwl(12);
   }
+  .description + .description {
+    margin-top: vwl(21);
+  }
+
 }
 //base_laout

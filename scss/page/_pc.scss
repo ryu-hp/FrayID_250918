@@ -1,9 +1,45 @@
 @use "../global" as *;
-#MO250911DENIM {
+#FR25091910hanbai {
   @include mq(md) {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: 1px;
 
     
+    .lp-wrapper {
+      display: flex;
+    }
+    .lp-fix-content {
+      position: sticky;
+      top: 120px;
+      left: 0;
+      width: 50vw;
+      height: 100vh;
+    }
+    .lp-kv-images a {
+      width: 100%;
+    }
+    .lp-kv-image img {
+      height: 100vh;
+      object-fit: cover;
+      object-position: top;
+    }
+    .lp-kv-image__text-01 {
+      width: calc(#{123 / 720} * 100%);
+      top: 17.5%;
+      right: 15.8%;
+    }
+    .lp-kv-image__text-02 {
+      width: calc(#{400 / 720} * 100%);
+      bottom: 26.2%;
+      right: 4.3%;
+    }
+    .lp-scroll-content {
+      width: 50vw;
+    }
+    .lp-scroll-content__wrapper {
+      max-width: calc(750 * var(--variable) * var(--ratio));
+      margin-right:auto;
+      margin-left:auto;
+    }
   }
 }
