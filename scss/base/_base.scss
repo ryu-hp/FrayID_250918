@@ -1,12 +1,14 @@
 @use "../global" as * ;
 
 #FR25091910hanbai {
-  --pc-width: 1400;
+  --pc-width: 1440;
   --sp-width: 750;
   --pc-artboard-width: 400;
   --sp-artboard-width: 750;
   --formula: calc(var(--variable) * var(--ratio));
   --formula_pc: calc(var(--variable) * 1);
+
+  color: $color-black;
 
   img,
   video {

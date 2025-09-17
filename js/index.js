@@ -67,7 +67,7 @@ jQuery(function ($) {
       speed: 1500,
       slidesPerView: 'auto',
       centeredSlides: false,
-      spaceBetween: 19,
+      // spaceBetween: 19,
       navigation: false,
       pagination: false,
     });

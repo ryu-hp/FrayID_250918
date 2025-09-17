@@ -1,11 +1,12 @@
 @charset "UTF-8";
 #FR25091910hanbai {
-  --pc-width: 1400;
+  --pc-width: 1440;
   --sp-width: 750;
   --pc-artboard-width: 400;
   --sp-artboard-width: 750;
   --formula: calc(var(--variable) * var(--ratio));
   --formula_pc: calc(var(--variable) * 1);
+  color: #232323;
 }
 #FR25091910hanbai img,
 #FR25091910hanbai video {
@@ -168,7 +169,7 @@
 #FR25091910hanbai .description {
   font-size: calc(23 * var(--formula));
   line-height: 1;
-  font-family: "trade-gothic-next-compressed", sans-serif;
+  font-family: "trade-gothic-next", sans-serif;
   letter-spacing: 0.12em;
   text-align: left;
   display: -webkit-box;
@@ -293,6 +294,7 @@
 #FR25091910hanbai {
   --ratio: 1;
   --variable: calc(100vw / var(--sp-width));
+  padding-bottom: calc(230 * var(--formula));
 }
 #FR25091910hanbai .lp-kv-images {
   position: relative;
@@ -317,7 +319,7 @@
   font-size: calc(24 * var(--formula));
   line-height: 2;
   letter-spacing: 0.18em;
-  font-family: "yu-gothic-pr6n", sans-serif, sans-serif;
+  font-family: "trade-gothic-next", sans-serif;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
 }
@@ -325,13 +327,13 @@
   padding-top: calc(127 * var(--formula));
   --color-section-theme:#d2eeae ;
 }
+#FR25091910hanbai .sec-02 .js-turnover::after {
+  background-color: var(--color-section-theme);
+}
 #FR25091910hanbai .sec-02__image_content-01 {
   max-width: calc(650 * var(--formula));
   margin-left: auto;
   position: relative;
-}
-#FR25091910hanbai .sec-02__image_content-01.js-turnover::after {
-  background-color: var(--color-section-theme);
 }
 #FR25091910hanbai .sec-02__image_01 {
   position: relative;
@@ -367,6 +369,9 @@
   padding-top: calc(183 * var(--formula));
   --color-section-theme:#918e88 ;
 }
+#FR25091910hanbai .sec-03 .js-turnover::after {
+  background-color: var(--color-section-theme);
+}
 #FR25091910hanbai .sec-03__image_01 {
   max-width: calc(560 * var(--formula));
   margin-right: auto;
@@ -389,9 +394,6 @@
 #FR25091910hanbai .sec-03__image-content {
   position: relative;
 }
-#FR25091910hanbai .sec-03__image-content.js-turnover::after {
-  background-color: var(--color-section-theme);
-}
 #FR25091910hanbai .sec-03__image-content-text {
   position: absolute;
   top: 49.8%;
@@ -413,6 +415,10 @@
 #FR25091910hanbai .sec-04 {
   padding-top: calc(183 * var(--formula));
   position: relative;
+  --color-section-theme:#9a6464 ;
+}
+#FR25091910hanbai .sec-04 .js-turnover::after {
+  background-color: var(--color-section-theme);
 }
 #FR25091910hanbai .sec-04__image_01 {
   max-width: calc(640 * var(--formula));
@@ -435,9 +441,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-column-gap: calc(60 * var(--formula));
-     -moz-column-gap: calc(60 * var(--formula));
-          column-gap: calc(60 * var(--formula));
+  -webkit-column-gap: calc(46 * var(--formula));
+     -moz-column-gap: calc(46 * var(--formula));
+          column-gap: calc(46 * var(--formula));
   width: 100%;
   overflow: hidden;
 }
@@ -450,11 +456,11 @@
           align-items: center;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  -webkit-column-gap: calc(60 * var(--formula));
-     -moz-column-gap: calc(60 * var(--formula));
-          column-gap: calc(60 * var(--formula));
-  -webkit-animation: loop-infinite-to-left 30s infinite linear 0.5s both;
-          animation: loop-infinite-to-left 30s infinite linear 0.5s both;
+  -webkit-column-gap: calc(46 * var(--formula));
+     -moz-column-gap: calc(46 * var(--formula));
+          column-gap: calc(46 * var(--formula));
+  -webkit-animation: loop-infinite-to-left 50s infinite linear 0.5s both;
+          animation: loop-infinite-to-left 50s infinite linear 0.5s both;
 }
 #FR25091910hanbai .sec-04__image-content-text {
   width: calc(1104 * var(--formula));
@@ -470,6 +476,9 @@
 #FR25091910hanbai .sec-05 {
   padding-top: calc(182 * var(--formula));
   --color-section-theme:#df98a9 ;
+}
+#FR25091910hanbai .sec-05 .js-turnover::after {
+  background-color: var(--color-section-theme);
 }
 #FR25091910hanbai .sec-05__image_01 {
   position: relative;
@@ -488,9 +497,6 @@
   max-width: calc(620 * var(--formula));
   margin-left: auto;
   position: relative;
-}
-#FR25091910hanbai .sec-05__image-content.js-turnover::after {
-  background-color: var(--color-section-theme);
 }
 #FR25091910hanbai .sec-05__slide-wrapper {
   position: relative;
@@ -524,6 +530,7 @@
   width: calc(540 * var(--formula));
   -webkit-transform: translateX(calc(130 * var(--formula)));
           transform: translateX(calc(130 * var(--formula)));
+  margin-right: calc(19 * var(--formula)) !important;
 }
 #FR25091910hanbai .sec-05__text {
   margin-top: calc(38 * var(--formula));
@@ -537,6 +544,9 @@
 #FR25091910hanbai .sec-06 {
   padding-top: calc(183 * var(--formula));
   --color-section-theme:#576f90 ;
+}
+#FR25091910hanbai .sec-06 .js-turnover::after {
+  background-color: var(--color-section-theme);
 }
 #FR25091910hanbai .sec-06__image_01 {
   max-width: calc(640 * var(--formula));
@@ -566,9 +576,6 @@
   width: calc(259 * var(--formula));
   z-index: 2;
 }
-#FR25091910hanbai .sec-06__image_02.js-turnover::after {
-  background-color: var(--color-section-theme);
-}
 #FR25091910hanbai .sec-06__text {
   margin-top: calc(38 * var(--formula));
   margin-left: calc(2 * var(--formula));
@@ -592,7 +599,7 @@
   margin-right: auto;
   margin-left: auto;
   padding-bottom: calc(21 * var(--formula));
-  border-bottom: 2px solid #fff;
+  border-bottom: 1px solid #fff;
 }
 #FR25091910hanbai .sec-footer__staff-list {
   margin-top: calc(78 * var(--formula));
@@ -617,7 +624,7 @@
 @media screen and (min-width: 768px) {
   #FR25091910hanbai {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
-    --variable: 1px;
+    --variable: calc(1 * 100vw / var(--pc-width));
   }
   #FR25091910hanbai .lp-wrapper {
     display: -webkit-box;
@@ -629,13 +636,18 @@
     top: 120px;
     left: 0;
     width: 50vw;
-    height: 100vh;
+    height: calc(100vh - 120px);
+  }
+  #FR25091910hanbai .lp-kv-images {
+    height: 100%;
   }
   #FR25091910hanbai .lp-kv-images a {
     width: 100%;
+    height: 100%;
+    display: block;
   }
   #FR25091910hanbai .lp-kv-image img {
-    height: 100vh;
+    height: 100%;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: top;
@@ -643,12 +655,12 @@
   }
   #FR25091910hanbai .lp-kv-image__text-01 {
     width: calc(123/720 * 100%);
-    top: 17.5%;
+    top: 22.7%;
     right: 15.8%;
   }
   #FR25091910hanbai .lp-kv-image__text-02 {
     width: calc(400/720 * 100%);
-    bottom: 26.2%;
+    bottom: 4.8%;
     right: 4.3%;
   }
   #FR25091910hanbai .lp-scroll-content {
@@ -658,5 +670,11 @@
     max-width: calc(750 * var(--variable) * var(--ratio));
     margin-right: auto;
     margin-left: auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .archive {
+    border-top: 1px solid #58595b;
   }
 }

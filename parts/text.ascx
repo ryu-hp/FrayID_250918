@@ -19,7 +19,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <!-- ▽ FONT SETTING ▽ -->
 <!-- 各LPで使用するFONTの読み込みの箇所はまとめてこちらに指定してください -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/css/style.css?09112212"/>
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/css/style.css?2509180812"/>
 <link rel="stylesheet" href="https://use.typekit.net/wnq3yaw.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- △ FONT SETTING △ -->
@@ -28,7 +28,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <div id="breadcrumb">
   <ul class="cateList">
     <li><a href="<%= Constants.PATH_ROOT %>">FRAY I.D（フレイ アイディー）</a></li>
-    <li><span> &gt; </span><a href="<%= Constants.PATH_ROOT %>Page/featureslist/2024aw.aspx">FEATURES（フィーチャーズ）</a></li>
+    <li><span> &gt; </span><a href="<%= Constants.PATH_ROOT %>Page/featureslist/2025aw.aspx">FEATURES（フィーチャーズ）</a></li>
     <li><span> &gt; </span>ECHOES OF AUTUMN 余韻でまとう、秋色のニュアンス</li>
   </ul>
 </div>
@@ -69,20 +69,20 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         </div>
         <div class="sec-02">
           <div class="sec-02__image_content-01 js-turnover">
-            <div class="sec-02__image_01">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai01">
+            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai01">
+              <div class="sec-02__image_01">
                 <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_01.jpg" alt="">
-              </a>
-            </div>
-            <div class="sec-02__image_content-text">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_03.png" alt="">
-            </div>
+              </div>
+              <div class="sec-02__image_content-text">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_03.png" alt="">
+              </div>
+            </a>
           </div>
           <div class="sec-02__content">
-            <div class="sec-02__image_02">
-            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai01">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_02.jpg" alt="">
-            </a>
+            <div class="sec-02__image_02 js-turnover">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai01">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_02.jpg" alt="">
+              </a>
             </div>
             <div class="sec-02__text">
               <p class="description">
@@ -95,21 +95,21 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <div class="sec-03">
-          <div class="sec-03__image_01">
+          <div class="sec-03__image_01 js-turnover">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai02">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_03.jpg" alt="">
             </a>
           </div>
           <div class="sec-03__content">
             <div class="sec-03__image-content js-turnover">
-              <div class="sec-03__image_02">
-                <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai02">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai02">
+                <div class="sec-03__image_02">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_04.jpg" alt="">
-                </a>
-              </div>
-              <div class="sec-03__image-content-text">
-                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_04.png" alt="GRAY">
-              </div>
+                </div>
+                <div class="sec-03__image-content-text">
+                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_04.png" alt="GRAY">
+                </div>
+              </a>
             </div>
             <div class="sec-03__text">
               <p class="sec-03__description description">
@@ -122,7 +122,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <div class="sec-04">
-          <div class="sec-04__image_01">
+          <div class="sec-04__image_01 js-turnover">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai03">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_05.jpg" alt="">
             </a>
@@ -175,7 +175,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
           <div class="sec-04__image-content-01">
             <div class="sec-04__content">
-              <div class="sec-04__image_02">
+              <div class="sec-04__image_02 js-turnover">
                 <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai03">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_06.jpg" alt="">
                 </a>
@@ -200,34 +200,36 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           <div class="sec-05__content">
             <div class="sec-05__slide-content">
               <div class="sec-05__slide-wrapper">
-                <!-- Swiper -->
-                <div id="sec-05-swiper" class="swiper sec-05-swiper">
-                  <!-- 必要に応じたwrapper -->
-                  <div class="swiper-wrapper">
-                    <!-- スライド -->
-                    <div class="swiper-slide sec-05__slide-item">        
-                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_08.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="swiper-slide sec-05__slide-item">
-                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_09.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="swiper-slide sec-05__slide-item">        
-                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_08.jpg" alt="">
-                      </a>
-                    </div>
-                    <div class="swiper-slide sec-05__slide-item">
-                      <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
-                        <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_09.jpg" alt="">
-                      </a>
+                <div class="js-turnover">
+                  <!-- Swiper -->
+                  <div id="sec-05-swiper" class="swiper sec-05-swiper">
+                    <!-- 必要に応じたwrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- スライド -->
+                      <div class="swiper-slide sec-05__slide-item">        
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_08.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide sec-05__slide-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_09.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide sec-05__slide-item">        
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_08.jpg" alt="">
+                        </a>
+                      </div>
+                      <div class="swiper-slide sec-05__slide-item">
+                        <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai04">
+                          <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_09.jpg" alt="">
+                        </a>
+                      </div>
                     </div>
                   </div>
+                  <!-- /Swiper -->
                 </div>
-                <!-- /Swiper -->
                 <div class="sec-05__image-content-text-02">
                   <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_07.png" alt="Blouse is LIMITED ITEM">
                 </div>
@@ -244,14 +246,16 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <div class="sec-06">
-          <div class="sec-06__image_01">
+          <div class="sec-06__image_01 js-turnover">
             <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai05">
               <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_10.jpg" alt="">
             </a>
           </div>
           <div class="sec-06__image-content">
             <div class="sec-06__image-text-01">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_08.png" alt="NAVY">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai05">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_08.png" alt="NAVY">
+              </a>
             </div>
             <div class="sec-06__content">
               <div class="sec-06__image_02 js-turnover">
@@ -273,14 +277,14 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
         <div class="sec-footer">
           <div class="sec-footer__image-content">
             <div class="sec-06__image_02 js-fadeIn">
-              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbaiALL">
-                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_12.jpg" alt="">
-              </a>
+              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_12.jpg" alt="">
             </div>
             <div class="sec-footer__staff text-center js-clipIn">
-              <div class="sec-footer__staff-head">
-                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_09.png" alt="All items">
-              </div>
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbaiALL" style="display: inline-block;">
+                <div class="sec-footer__staff-head">
+                  <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_09.png" alt="All items">
+                </div>
+              </a>
               <div class="sec-footer__staff-list">
                 <p class="sec-footer__staff-item">Model : Mizuki Hanayama [Horipro Digital Entertainment]</p>
                 <p class="sec-footer__staff-item">Photographer : Kentaro Watanabe</p>
@@ -298,7 +302,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <!-- △ LP編集エリア △ -->
 
 <!-- ▽ JS Setting ▽ -->
-<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/js/index.js?2509112223"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/js/index.js?2509180812"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- CSSハック利用のためのコードで不要であれば削除するようにしてください。 -->
 <script src="<%= Constants.PATH_ROOT %>JS/css_browser_selector.js"></script>

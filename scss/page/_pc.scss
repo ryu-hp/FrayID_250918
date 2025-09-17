@@ -2,7 +2,7 @@
 #FR25091910hanbai {
   @include mq(md) {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
-    --variable: 1px;
+    --variable: calc(1 * 100vw / var(--pc-width));
 
     
     .lp-wrapper {
@@ -13,24 +13,29 @@
       top: 120px;
       left: 0;
       width: 50vw;
-      height: 100vh;
+      height:  calc(100vh - 120px);
+    }
+    .lp-kv-images {
+      height: 100%;
     }
     .lp-kv-images a {
       width: 100%;
+      height: 100%;
+      display: block;
     }
     .lp-kv-image img {
-      height: 100vh;
+      height: 100%;
       object-fit: cover;
       object-position: top;
     }
     .lp-kv-image__text-01 {
       width: calc(#{123 / 720} * 100%);
-      top: 17.5%;
+      top: 22.7%;
       right: 15.8%;
     }
     .lp-kv-image__text-02 {
       width: calc(#{400 / 720} * 100%);
-      bottom: 26.2%;
+      bottom: 4.8%;
       right: 4.3%;
     }
     .lp-scroll-content {
@@ -41,5 +46,11 @@
       margin-right:auto;
       margin-left:auto;
     }
+  }
+}
+
+@include mq(md) {
+  .archive {
+    border-top: 1px solid #58595b;
   }
 }
