@@ -299,6 +299,10 @@
 #FR25091910hanbai .lp-kv-images {
   position: relative;
 }
+#FR25091910hanbai .lp-kv-image {
+  height: 100%;
+  width: 100%;
+}
 #FR25091910hanbai .lp-kv-image__text {
   position: absolute;
 }
