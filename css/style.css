@@ -169,8 +169,8 @@
 #FR25091910hanbai .description {
   font-size: calc(23 * var(--formula));
   line-height: 1;
-  font-family: "trade-gothic-next", sans-serif;
-  letter-spacing: 0.12em;
+  font-family: "trade-gothic-next-condensed", sans-serif;
+  letter-spacing: 0.045em;
   text-align: left;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -294,7 +294,7 @@
 #FR25091910hanbai {
   --ratio: 1;
   --variable: calc(100vw / var(--sp-width));
-  padding-bottom: calc(230 * var(--formula));
+  padding-bottom: calc(2 * var(--formula));
 }
 #FR25091910hanbai .lp-kv-images {
   position: relative;
@@ -323,7 +323,7 @@
   font-size: calc(24 * var(--formula));
   line-height: 2;
   letter-spacing: 0.18em;
-  font-family: "trade-gothic-next", sans-serif;
+  font-family: "yu-gothic-pr6n", sans-serif, sans-serif;
   -webkit-font-feature-settings: "palt";
           font-feature-settings: "palt";
 }
@@ -382,7 +382,7 @@
   margin-left: auto;
   position: relative;
 }
-#FR25091910hanbai .sec-03__image_01::before {
+#FR25091910hanbai .sec-03__image_01 a::before {
   position: absolute;
   background-color: var(--color-section-theme);
   height: 100%;
@@ -557,7 +557,7 @@
   margin-left: auto;
   position: relative;
 }
-#FR25091910hanbai .sec-06__image_01::before {
+#FR25091910hanbai .sec-06__image_01 a::before {
   position: absolute;
   background-color: var(--color-section-theme);
   height: 100%;
@@ -620,6 +620,10 @@
   margin-top: calc(23 * var(--formula));
 }
 
+.archive {
+  border-top: none !important;
+}
+
 @media screen and (max-width: 767px) {
   .archive > h4 {
     padding-top: calc(186/750 * 100vw) !important;
@@ -629,6 +633,7 @@
   #FR25091910hanbai {
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: calc(1 * 100vw / var(--pc-width));
+    padding-bottom: calc(230 * var(--formula));
   }
   #FR25091910hanbai .lp-wrapper {
     display: -webkit-box;

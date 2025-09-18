@@ -4,6 +4,8 @@
     --ratio: calc(var(--pc-artboard-width) / var(--sp-artboard-width));
     --variable: calc(1 * 100vw / var(--pc-width));
 
+    padding-bottom: calc(230 * var(--formula));
+
     
     .lp-wrapper {
       display: flex;

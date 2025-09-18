@@ -3,7 +3,7 @@
   --ratio: 1;
   --variable: calc(100vw / var(--sp-width));
 
-  padding-bottom: calc(230 * var(--formula));
+  padding-bottom: calc(2 * var(--formula));
 
   // kv
   .lp-kv-images {
@@ -35,8 +35,7 @@
     font-size: vwl(24);
     line-height: 2;
     letter-spacing: 0.18em;
-    // font-family: $yugothic-font-family;
-    font-family: $base-font-family;
+    font-family: $yugothic-font-family;
     font-feature-settings: "palt";
   }
 
@@ -98,7 +97,7 @@
     margin-left:auto;
     position: relative;
   }
-  .sec-03__image_01::before {
+  .sec-03__image_01 a::before {
     position: absolute;
     background-color: var(--color-section-theme);
     height: 100%;
@@ -264,7 +263,7 @@
     margin-left: auto;
     position: relative;
   }
-  .sec-06__image_01::before {
+  .sec-06__image_01 a::before {
     position: absolute;
     background-color: var(--color-section-theme);
     height: 100%;
@@ -327,6 +326,9 @@
   .sec-footer__staff-item + .sec-footer__staff-item {
     margin-top: vwl(23);
   }
+}
+.archive {
+  border-top: none !important;
 }
 
 @media screen and (max-width: 767px) {

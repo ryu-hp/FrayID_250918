@@ -19,7 +19,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 
 <!-- ▽ FONT SETTING ▽ -->
 <!-- 各LPで使用するFONTの読み込みの箇所はまとめてこちらに指定してください -->
-<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/css/style.css?2509181401"/>
+<link rel="stylesheet" href="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/css/style.css?2509181933"/>
 <link rel="stylesheet" href="https://use.typekit.net/wnq3yaw.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 <!-- △ FONT SETTING △ -->
@@ -42,12 +42,9 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
       <div class="lp-kv-images">
         <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbaiALL">
           <div class="lp-kv-image js-fadeIn">
-            <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/kv_image.jpg" alt="fun with denim">  
-          </div>
-          <div class="lp-kv-image__text lp-kv-image__text-01">
             <picture>
-              <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_01.png" media="(max-width: 767px)" type="image/png">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_text_01_pc.png" alt="余韻でまとう、秋色のニュアンス">
+              <source srcset="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/kv_image.jpg" media="(max-width: 767px)" type="image/jpg">
+              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/kv_image-pc.jpg" alt="余韻でまとう、秋色のニュアンス">  
             </picture>
           </div>
           <div class="lp-kv-image__text lp-kv-image__text-02 js-clipIn">
@@ -95,10 +92,12 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
           </div>
         </div>
         <div class="sec-03">
-          <div class="sec-03__image_01 js-turnover">
-            <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai02">
-              <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_03.jpg" alt="">
-            </a>
+          <div class="">
+            <div class="sec-03__image_01 js-turnover">
+              <a href="<%= Constants.PATH_ROOT %>Form/Product/ProductList.aspx?shop=0&pgi=FR25091910hanbai02">
+                <img src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/img/image_03.jpg" alt="">
+              </a>
+            </div>
           </div>
           <div class="sec-03__content">
             <div class="sec-03__image-content js-turnover">
@@ -302,7 +301,7 @@ Copyright   : Copyright w2solution Co.,Ltd. 2011 All Rights Reserved.
 <!-- △ LP編集エリア △ -->
 
 <!-- ▽ JS Setting ▽ -->
-<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/js/index.js?2509181401"></script>
+<script src="<%= Constants.PATH_ROOT %>Page/feature/2025/250919_10hanbai/js/index.js?2509181933"></script>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 <!-- CSSハック利用のためのコードで不要であれば削除するようにしてください。 -->
 <script src="<%= Constants.PATH_ROOT %>JS/css_browser_selector.js"></script>
